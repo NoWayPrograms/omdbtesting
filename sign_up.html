@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | MyMovieList</title>
+    <link rel="stylesheet" href="movie_lists.css">
+</head>
+<body>
+<div class="form">
+    <form autocomplete="off">
+        <fieldset>
+            <legend>Sign Up</legend>
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username" required>
+            <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            <br>
+                <label for="password1">Password: </label>
+                <input type="password" id="password1" name="password1" required>
+            <br>
+                <label for="password2">Repeat Password: </label>
+                <input type="password" id="password2" name="password2" required>
+            <br>
+                <span>Gender: </span>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">prefer not to say</label>
+            <br>
+                <label for="tos">
+                    Click here to agree to the
+                    <a href="" target="_blank">terms of service</a>:
+                </label>
+                <input type="checkbox" id="tos">
+            <br>
+                <input type="button" value="Cancel">
+                <input type="submit">
+            <br>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
